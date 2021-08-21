@@ -1,0 +1,2 @@
+# BT Avoidance
+type hal_bt_channel_avoidance_hwservice, hwservice_manager_type;

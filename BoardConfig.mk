@@ -49,3 +49,5 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private

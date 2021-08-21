@@ -1,3 +1,6 @@
 # Fingerprint
 vendor.goodix.hardware.biometrics.fingerprint::IGoodixFingerprintDaemon                  u:object_r:hal_fingerprint_hwservice:s0
 com.motorola.hardware.biometric.fingerprint::IMotoFingerPrint                            u:object_r:hal_fingerprint_hwservice:s0
+
+# FOD
+vendor.hentai.biometrics.fingerprint.inscreen::IFingerprintInscreen                      u:object_r:hal_hentai_fod_hwservice:s0

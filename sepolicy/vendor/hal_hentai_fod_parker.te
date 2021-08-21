@@ -6,6 +6,10 @@ init_daemon_domain(hal_hentai_fod_parker)
 
 wakelock_use(hal_hentai_fod_parker)
 
+# Allow rw access to fod sysfs
+type sysfs_fod, sysfs_type, fs_type;
+allow hal_hentai_fod_parker sysfs_fod:file rw_file_perms;
+
 # Allow access to the HALs
 hal_client_domain(hal_hentai_fod_parker, hal_fingerprint)
 

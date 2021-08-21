@@ -37,7 +37,7 @@
 #define FOD_UI_PATH "/sys/devices/platform/soc/soc:qcom,dsi-display/fod_ui"
 
 namespace vendor {
-namespace lineage {
+namespace hentai {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -157,5 +157,5 @@ Return<void> FingerprintInscreen::setCallback(const sp<IFingerprintInscreenCallb
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace hentai
 }  // namespace vendor

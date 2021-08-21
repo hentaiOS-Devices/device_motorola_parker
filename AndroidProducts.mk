@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_parker.mk
+    $(LOCAL_DIR)/hentai_parker.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_parker-eng \
-    aosp_parker-user \
-    aosp_parker-userdebug
+    hentai_parker-eng \
+    hentai_parker-user \
+    hentai_parker-userdebug

@@ -16,11 +16,11 @@
 #ifndef VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
 #define VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
 
-#include <vendor/lineage/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
+#include <vendor/hentai/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
 #include <vendor/goodix/hardware/biometrics/fingerprint/2.1/IGoodixFingerprintDaemon.h>
 
 namespace vendor {
-namespace lineage {
+namespace hentai {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -63,7 +63,7 @@ class FingerprintInscreen : public IFingerprintInscreen {
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace hentai
 }  // namespace vendor
 
 #endif  // VENDOR_LINEAGE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H

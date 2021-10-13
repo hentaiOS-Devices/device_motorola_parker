@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.parker
+     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.parker
 
 # Power
 PRODUCT_COPY_FILES += \

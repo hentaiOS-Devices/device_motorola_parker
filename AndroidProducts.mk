@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2020 The hentaiOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_parker.mk
+    $(LOCAL_DIR)/hentai_parker.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_parker-eng \
-    lineage_parker-user \
-    lineage_parker-userdebug
+    hentai_parker-eng \
+    hentai_parker-user \
+    hentai_parker-userdebug
